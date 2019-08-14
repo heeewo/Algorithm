@@ -11,6 +11,7 @@ void main()
         S = S + A;
         N = N + 1;
         if( N > 100 ) break;
+        printf("%d\n", S);
     }
     printf("%d\n", S);
 }

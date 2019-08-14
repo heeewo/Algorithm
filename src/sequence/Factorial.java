@@ -9,7 +9,7 @@ class Fact{
 
 public class Factorial {
     public static void main(String[] args){
-        int N = 3;
+        int N = 10;
         int S = 1;
         while(true){
             S = S + Fact.calculate(N);
